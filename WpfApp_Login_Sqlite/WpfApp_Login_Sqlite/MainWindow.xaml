@@ -1,0 +1,17 @@
+﻿<Window x:Class="WpfApp_Login_Sqlite.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp_Login_Sqlite"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="Iniciar Sesión" HorizontalAlignment="Left" Margin="373,348,0,0" VerticalAlignment="Top" Width="292" Height="49" Name="btn_iniciar_sesion" Click="btn_iniciar_sesion_Click"/>
+        <Label Content="Usuario" HorizontalAlignment="Left" Margin="50,45,0,0" VerticalAlignment="Top" Height="62" Width="148" Name="lbl_usuario"/>
+        <Label Content="Contraseña" HorizontalAlignment="Left" Margin="50,179,0,0" VerticalAlignment="Top" Height="62" Width="148" Name="lbl_contraseña"/>
+        <TextBox HorizontalAlignment="Left" Height="55" Margin="285,52,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="467" Name="txt_usuario"/>
+        <PasswordBox HorizontalAlignment="Left" Margin="285,179,0,0" VerticalAlignment="Top" Height="55" Width="467" Name="txt_contraseña"/>
+
+    </Grid>
+</Window>
